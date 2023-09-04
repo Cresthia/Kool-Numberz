@@ -1,0 +1,121 @@
+.Display1{
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    height: 200px;
+    border-style: solid;
+    border-color: rgb(9, 9, 9);
+    background-color: rgb(9, 9, 9);
+    border-radius: 60px;
+}
+.Display{
+    display: inline-block;
+    padding: 10px;
+    padding-left: 555px;
+    padding-top: 150px;
+}
+.count-pos {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 60px;
+    font-family: 'Rubik';
+    font-weight:700;
+    color: white;
+}
+body{
+    margin: 0px;
+    background-color: rgb(11, 11, 11);
+}
+.Add{
+    display: inline-block;
+    position: fixed;
+    left: 705px;
+    top: 375px;
+}
+.Count{
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    color: rgb(230, 230, 230);
+    font-size: 60px;
+    font-family: 'Rubik';
+    border: solid;
+    border-radius: 40px;
+    font-weight: 700;
+    cursor:pointer;
+    background-color: black;
+    transition: background-color 0.6s, border-color 0.6s,
+    font-size 0.6s;
+}
+.Count:hover{
+    background-color: rgb(7, 243, 7);
+    border-color: rgb(63, 255, 63);
+    font-size: 65px;
+}
+.Count:active{
+    font-size: 75px;
+    background-color: rgb(255, 255, 255);
+    border-color: white;
+}
+.Sub{
+    position: fixed;
+    display: inline-block;
+    left: 475px;
+    top: 375px;
+}
+.Down{
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    color: rgb(230, 230, 230);
+    font-size: 55px;
+    font-family: 'Rubik';
+    border: solid;
+    border-radius: 40px;
+    font-weight: 700;
+    cursor:pointer;
+    background-color: black;
+    transition: background-color 0.6s, border-color 0.6s,
+    font-size 0.6s;
+}
+.Down:hover{
+    background-color: rgb(243, 7, 7);
+    border-color: rgb(255, 63, 63);
+    font-size: 60px;
+}
+.Down:active{
+    font-size: 70px;
+    background-color: rgb(255, 255, 255);
+    border-color: white;
+}
+.Rest{
+    display: inline-block;
+    position: fixed;
+    left: 935px;
+    top: 375px;
+}
+.Reset{
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    color: rgb(230, 230, 230);
+    font-size: 50px;
+    font-family: 'Rubik';
+    border: solid;
+    border-radius: 40px;
+    font-weight: 700;
+    cursor:pointer;
+    background-color: black;
+    transition: background-color 0.6s, border-color 0.6s,
+    font-size 0.6s;
+}
+.Reset:hover{
+    background-color: rgb(220, 234, 29);
+    border-color: rgb(232, 255, 102);
+    font-size: 55px;
+}
+.Reset:active{
+    font-size: 58px;
+    background-color: rgb(255, 255, 255);
+    border-color: white;
+}
